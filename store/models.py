@@ -1,4 +1,4 @@
-from tkinter import CASCADE
+#from tkinter import CASCADE
 from venv import create
 from django.db import models
 from category.models import Category
