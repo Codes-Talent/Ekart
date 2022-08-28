@@ -30,7 +30,7 @@ SECRET_KEY = 'y^xd$)5yf1jc-f_0z9jrm7a5y4ww1ctn%j77&(gk37!w8etb=%'
 # DEBUG = config('DEBUG', default=True, cast=bool) #True
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -99,7 +99,8 @@ DATABASES = {
     }
 }
 
-
+# Add this for diployment
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
